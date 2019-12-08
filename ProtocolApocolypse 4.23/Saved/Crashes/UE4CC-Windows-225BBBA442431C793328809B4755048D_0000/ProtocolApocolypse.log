@@ -1,0 +1,985 @@
+﻿Log file open, 06/16/19 18:00:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProtocolApocolypse
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.274123
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.135s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.014s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.06.16-10.00.58:392][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.16-10.00.58:392][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.16-10.00.58:411][  0]LogHAL: Display: Platform has ~ 16 GB [17117212672 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.16-10.00.58:411][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.06.16-10.00.58:411][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.16-10.00.58:412][  0]LogInit: Computer: SASHA
+[2019.06.16-10.00.58:412][  0]LogInit: User: ilhan
+[2019.06.16-10.00.58:412][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.16-10.00.58:412][  0]LogInit: High frequency timer resolution =3.515622 MHz
+[2019.06.16-10.00.58:412][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.16-10.00.58:412][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.16-10.00.58:412][  0]LogMemory: Process Physical Memory: 101.52 MB used, 101.52 MB peak
+[2019.06.16-10.00.58:412][  0]LogMemory: Process Virtual Memory: 93.40 MB used, 93.40 MB peak
+[2019.06.16-10.00.58:412][  0]LogMemory: Physical Memory: 6685.38 MB used,  9638.87 MB free, 16324.25 MB total
+[2019.06.16-10.00.58:412][  0]LogMemory: Virtual Memory: 4633.41 MB used,  9638.87 MB free, 134217728.00 MB total
+[2019.06.16-10.00.58:433][  0]LogInit: Using OS detected language (en-US).
+[2019.06.16-10.00.58:433][  0]LogInit: Using OS detected locale (en-SG).
+[2019.06.16-10.00.58:434][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.16-10.00.58:818][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2019.06.16-10.00.58:849][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.16-10.00.58:849][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.16-10.00.59:115][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.16-10.00.59:115][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.16-10.00.59:197][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.06.16-10.00.59:197][  0]LogD3D11RHI:       8088/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.16-10.00.59:199][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.16-10.00.59:199][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.16-10.00.59:199][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.16-10.00.59:206][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.16-10.00.59:206][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.16-10.00.59:206][  0]LogWindows: EnumDisplayDevices:
+[2019.06.16-10.00.59:206][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.06.16-10.00.59:206][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.16-10.00.59:206][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.16-10.00.59:207][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.16-10.00.59:207][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.16-10.00.59:207][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.06.16-10.00.59:207][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.06.16-10.00.59:207][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.06.16-10.00.59:207][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.06.16-10.00.59:249][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.16-10.00.59:270][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.16-10.00.59:318][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (G:/My games/ProtocolApocolypse/Intermediate/Shaders/WorkingDirectory/7192/).
+[2019.06.16-10.00.59:318][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ilhan/AppData/Local/Temp/UnrealShaderWorkingDir/24B6EECF4D86B03AEFDCAE9C7B3E4692/'.
+[2019.06.16-10.00.59:602][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.16-10.00.59:613][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.16-10.00.59:624][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.16-10.00.59:636][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.16-10.00.59:647][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.16-10.00.59:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.16-10.00.59:670][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.16-10.00.59:681][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.16-10.00.59:687][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.16-10.00.59:763][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.16-10.00.59:819][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.16-10.00.59:819][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.16-10.00.59:840][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.16-10.00.59:840][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.16-10.00.59:851][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.16-10.00.59:861][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.16-10.00.59:872][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.16-10.00.59:883][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.16-10.00.59:891][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.16-10.00.59:891][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.16-10.00.59:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.16-10.00.59:943][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.16-10.00.59:943][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.16-10.01.00:684][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/ilhan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ilhan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/My games/ProtocolApocolypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/My games/ProtocolApocolypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.16-10.01.00:743][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.16-10.01.00:757][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.16-10.01.00:770][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ilhan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.16-10.01.00:770][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.16-10.01.00:770][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.16-10.01.00:786][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.16-10.01.00:787][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.16-10.01.00:788][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.16-10.01.00:868][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.06.16-10.01.01:160][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.16-10.01.01:300][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.16-10.01.01:303][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.16-10.01.01:303][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.16-10.01.01:303][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.16-10.01.01:303][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.16-10.01.01:319][  0]LogNetVersion: ProtocolApocolypse 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3439333080)
+[2019.06.16-10.01.01:831][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112224 seconds
+[2019.06.16-10.01.01:838][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.06.16-10.01.01:839][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.06.16-10.01.01:839][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.16-10.01.02:692][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.16-10.01.02:706][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.16-10.01.02:834][  0]SourceControl: Source control is disabled
+[2019.06.16-10.01.02:834][  0]SourceControl: Source control is disabled
+[2019.06.16-10.01.02:835][  0]SourceControl: Source control is disabled
+[2019.06.16-10.01.02:836][  0]SourceControl: Source control is disabled
+[2019.06.16-10.01.02:999][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.16-10.01.03:084][  0]LogOcInput: OculusInput pre-init called
+[2019.06.16-10.01.03:140][  0]LogEngine: Initializing Engine...
+[2019.06.16-10.01.03:141][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.16-10.01.03:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.16-10.01.03:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.16-10.01.03:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.16-10.01.03:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.16-10.01.03:345][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.16-10.01.03:357][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.16-10.01.03:416][  0]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.01.03:428][  0]LogInit: FAudioDevice initialized.
+[2019.06.16-10.01.03:429][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.16-10.01.03:543][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/ilhan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.06.16-10.01.03:549][  0]LogInit: Texture streaming: Enabled
+[2019.06.16-10.01.03:567][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.16-10.01.03:657][  0]LogInit: Transaction tracking system initialized
+[2019.06.16-10.01.03:675][  0]BlueprintLog: New page: Editor Load
+[2019.06.16-10.01.03:735][  0]LocalizationService: Localization service is disabled
+[2019.06.16-10.01.04:170][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.16-10.01.04:170][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.16-10.01.04:192][  0]LogFileCache: Scanning file cache for directory 'G:/My games/ProtocolApocolypse/Content/' took 0.02s
+[2019.06.16-10.01.04:193][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.16-10.01.04:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.16-10.01.04:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.16-10.01.04:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.16-10.01.04:193][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.16-10.01.04:301][  0]SourceControl: Source control is disabled
+[2019.06.16-10.01.04:302][  0]Cmd: MAP LOAD FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Maps/loadout_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.16-10.01.04:329][  0]LightingResults: New page: Lighting Build
+[2019.06.16-10.01.04:331][  0]MapCheck: New page: Map Check
+[2019.06.16-10.01.04:331][  0]LightingResults: New page: Lighting Build
+[2019.06.16-10.01.05:658][  0]LogAIModule: Creating AISystem for world loadout_map
+[2019.06.16-10.01.05:662][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.16-10.01.05:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.16-10.01.05:760][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.146ms to complete.
+[2019.06.16-10.01.05:760][  0]LogFileHelpers: Loading map 'loadout_map' took 1.459
+[2019.06.16-10.01.06:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.01.06:446][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.01.06:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.01.06:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.01.06:514][  0]LogCollectionManager: Loaded 0 collections in 0.001337 seconds
+[2019.06.16-10.01.06:706][  0]LogFileCache: Scanning file cache for directory 'G:/My games/ProtocolApocolypse/Saved/Collections/' took 0.01s
+[2019.06.16-10.01.06:706][  0]LogFileCache: Scanning file cache for directory 'G:/My games/ProtocolApocolypse/Content/Developers/ilhan/Collections/' took 0.01s
+[2019.06.16-10.01.06:706][  0]LogFileCache: Scanning file cache for directory 'G:/My games/ProtocolApocolypse/Content/Collections/' took 0.01s
+[2019.06.16-10.01.06:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.16-10.01.06:717][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
+[2019.06.16-10.01.06:811][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.16-10.01.07:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.16-10.01.07:794][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.06.16-10.01.08:266][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.16-10.01.08:268][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.16-10.01.08:344][  0]LogSlate: Took 0.014417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.16-10.01.08:864][  0]LogRenderer: Reallocating scene render targets to support 832x460 Format 10 NumSamples 1 (Frame:1).
+[2019.06.16-10.01.09:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.06.16-10.01.09:466][  0]LogLoad: (Engine Initialization) Total time: 13.29 seconds
+[2019.06.16-10.01.09:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.16-10.01.09:529][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.16-10.01.09:732][  0]LogSlate: Took 0.021218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.16-10.01.09:784][  1]LogAssetRegistry: Asset discovery search completed in 8.9386 seconds
+[2019.06.16-10.01.09:786][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.16-10.01.09:786][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2019.06.16-10.01.10:898][  5]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.16-10.01.10:902][  5]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/main_menu.main_menu
+[2019.06.16-10.01.11:968][  5]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.06.16-10.01.13:640][  5]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/Lobby.Lobby
+[2019.06.16-10.01.13:914][  5]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/UI/PlayerCard.PlayerCard
+[2019.06.16-10.01.14:322][  5]LogSlate: Took 0.030907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.16-10.02.08:507][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.02.08:670][  8]LogSlate: Window 'PlayerCard' being destroyed
+[2019.06.16-10.02.08:674][  8]LogSlate: Window 'PlayerCard' being destroyed
+[2019.06.16-10.02.10:852][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.02.18:225][755]LogMaterial: Display: Missing cached shader map for material selected_M, compiling. 
+[2019.06.16-10.02.18:656][755]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.06.16-10.02.18:656][755]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.06.16-10.02.18:656][755]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.06.16-10.02.18:685][755]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.02.19:287][755]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/stronghold.stronghold
+[2019.06.16-10.02.19:439][755]Cmd: MAP LOAD FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Maps/stronghold.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.16-10.02.19:439][755]LightingResults: New page: Lighting Build
+[2019.06.16-10.02.19:440][755]LoadErrors: New page: Loading map: stronghold.umap
+[2019.06.16-10.02.19:440][755]MapCheck: New page: Map Check
+[2019.06.16-10.02.19:440][755]LightingResults: New page: Lighting Build
+[2019.06.16-10.02.19:671][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.16-10.02.19:832][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.16-10.02.19:912][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.233ms to complete.
+[2019.06.16-10.02.19:912][755]LogFileHelpers: Loading map 'stronghold' took 0.474
+[2019.06.16-10.02.21:681][916]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.02.21:735][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.02.21:754][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.02.21:845][916]PIE: New page: PIE session: stronghold (17 Jun 2019 2:02:21 am)
+[2019.06.16-10.02.21:846][916]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.02.21:937][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090852s)
+[2019.06.16-10.02.21:937][916]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.02.21:938][916]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2019.06.16-10.02.21:938][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.091747s)
+[2019.06.16-10.02.21:997][916]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.02.22:003][916]LogInit: FAudioDevice initialized.
+[2019.06.16-10.02.22:017][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.02.22:481][916]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.02.22:509][916]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.02.22
+[2019.06.16-10.02.22:724][916]LogWorld: Bringing up level for play took: 0.242322
+[2019.06.16-10.02.22:795][916]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.06.16-10.02.22:867][916]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold 0.341
+[2019.06.16-10.02.22:867][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.02.23:030][916]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.06.16-10.02.24:106][ 18]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.24:368][ 47]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.24:368][ 47]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.24:748][ 93]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.24:748][ 93]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.24:923][114]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.25:900][231]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.26:249][273]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:249][273]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:466][299]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:757][334]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:757][334]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:757][334]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.26:757][334]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.27:591][434]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.27:982][481]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.28:098][495]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.28:424][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.28:424][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.28:549][549]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.02.30:863][823]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.31:627][915]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.31:628][915]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.32:276][993]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.32:743][ 49]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.32:835][ 60]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.35:737][408]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.36:137][456]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.36:404][488]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.37:171][580]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.37:380][605]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.38:371][724]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.38:547][745]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.39:321][838]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.40:188][942]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.40:406][968]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.41:346][ 81]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.41:496][ 99]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.43:398][327]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.43:606][352]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.44:705][484]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.02.47:390][806]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.47:632][835]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.02.47:715][845]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.02.49:245][ 27]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.49:363][ 41]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.51:645][315]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.52:505][418]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.53:672][558]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.53:881][583]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.54:881][703]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.55:107][730]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.02.56:064][845]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.02.56:232][865]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.03.04:390][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.03.04:513][857]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.03.04:520][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.03.04:595][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.03.04:595][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.03.04:674][858]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.06.16-10.03.08:673][335]LogEditorViewport: Clicking on Actor (LMB): mech_C (mech)
+[2019.06.16-10.03.11:133][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.16-10.03.12:596][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.16-10.03.12:599][686]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/units/mech.mech
+[2019.06.16-10.03.15:582][852]LogSlate: Took 0.009790 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.16-10.03.44:342][583]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:343][583]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Sphere' 
+[2019.06.16-10.03.44:343][583]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:358][584]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:359][584]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:375][585]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:376][585]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:391][586]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:391][586]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:407][587]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:407][587]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:422][588]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:422][588]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:734][609]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:734][609]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Sphere' 
+[2019.06.16-10.03.44:734][609]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:749][610]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.44:749][610]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.03.51:549][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.04.05:308][513]BlueprintLog: New page: Compile mech
+[2019.06.16-10.04.05:514][513]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:attack range
+    Item = SphereComponent /Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.REINST_mech_C_0.TRASH_SphereComponent_36
+[2019.06.16-10.04.05:611][513]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.StaticMeshComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:attack range
+    Item = SphereComponent /Engine/Transient.World_8:PersistentLevel.REINST_mech_C_0.TRASH_SphereComponent_3403
+[2019.06.16-10.04.06:983][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.04.07:330][578]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech089FA4924C9415ABC4C5EFA6F03537A1.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.04.07:653][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.05.16:297][426]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.05.16:322][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.05.16:322][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.05.16:322][426]PIE: New page: PIE session: stronghold (17 Jun 2019 2:05:16 am)
+[2019.06.16-10.05.16:322][426]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.05.16:335][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012793s)
+[2019.06.16-10.05.16:336][426]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.05.16:336][426]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2019.06.16-10.05.16:336][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.013829s)
+[2019.06.16-10.05.16:420][426]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.05.16:427][426]LogInit: FAudioDevice initialized.
+[2019.06.16-10.05.16:438][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.05.16:510][426]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.05.16:512][426]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.05.16
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.16:513][426]LogWorld: Bringing up level for play took: 0.002406
+[2019.06.16-10.05.16:532][426]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold 0.006
+[2019.06.16-10.05.16:533][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.05.18:442][555]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.05.18:442][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.18:655][574]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.18:655][574]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.20:354][718]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.05.20:618][740]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.05.20:618][740]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.05.20:619][740]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.05.20:619][740]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.05.21:798][842]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.05.35:316][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.05.35:431][997]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.05.35:437][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.05.35:480][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.05.35:480][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.05.35:723][998]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.06.16-10.05.48:491][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.04:096][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.08:839][825]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:840][825]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.vision' 
+[2019.06.16-10.06.08:840][825]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:850][826]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:862][827]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:874][828]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:884][829]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:896][830]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:907][831]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:918][832]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:930][833]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:941][834]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:953][835]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:964][836]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:975][837]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:986][838]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.08:998][839]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.09:009][840]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.09:020][841]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.09:033][842]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.vision' 
+[2019.06.16-10.06.17:028][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.18:463][885]BlueprintLog: New page: Compile mech
+[2019.06.16-10.06.19:292][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.06.19:406][930]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech32E0011F40B28EEAAA1AC187A66B34AC.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.06.19:990][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.20:083][  5]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.06.20:100][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.20:101][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.06.20:101][  5]PIE: New page: PIE session: stronghold (17 Jun 2019 2:06:20 am)
+[2019.06.16-10.06.20:101][  5]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.06.20:113][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011348s)
+[2019.06.16-10.06.20:113][  5]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.06.20:114][  5]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2019.06.16-10.06.20:114][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.012423s)
+[2019.06.16-10.06.20:178][  5]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.06.20:184][  5]LogInit: FAudioDevice initialized.
+[2019.06.16-10.06.20:193][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.06.20:266][  5]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.06.20:268][  5]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.06.20
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.20:269][  5]LogWorld: Bringing up level for play took: 0.002445
+[2019.06.16-10.06.20:288][  5]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold -0.238
+[2019.06.16-10.06.20:288][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.22:302][211]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.22:773][263]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.06.23:987][399]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.06.26:455][683]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.26:842][726]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.30:224][117]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.30:694][171]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.31:689][286]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.31:919][311]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.32:762][405]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.33:057][436]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.06.35:055][661]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.06.38:147][ 13]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.39:259][141]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.41:614][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.41:763][423]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.06.41:769][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.41:802][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.06.41:802][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.41:911][424]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.06.16-10.06.45:152][806]BlueprintLog: New page: Compile mech
+[2019.06.16-10.06.45:728][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.06.45:815][826]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech01BCB9324900BC37792C1CAFF03506D8.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.06.46:633][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.48:445][128]BlueprintLog: New page: Compile mech
+[2019.06.16-10.06.49:156][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.06.49:268][164]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech843D7C7C4599CBAD396FEE916FBD7D4B.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.06.49:804][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.49:895][235]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.06.49:913][235]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.49:913][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.06.49:914][235]PIE: New page: PIE session: stronghold (17 Jun 2019 2:06:49 am)
+[2019.06.16-10.06.49:914][235]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.06.49:925][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011088s)
+[2019.06.16-10.06.49:926][235]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.06.49:927][235]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2019.06.16-10.06.49:927][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.012600s)
+[2019.06.16-10.06.49:971][235]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.06.49:979][235]LogInit: FAudioDevice initialized.
+[2019.06.16-10.06.49:989][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.06.50:057][235]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.06.50:060][235]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.06.50
+[2019.06.16-10.06.50:060][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:060][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:060][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:060][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:060][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:061][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:061][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:061][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.06.50:061][235]LogWorld: Bringing up level for play took: 0.002570
+[2019.06.16-10.06.50:078][235]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold -0.448
+[2019.06.16-10.06.50:078][235]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.51:431][367]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.51:980][428]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.52:862][530]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.53:216][566]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.53:654][614]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.53:787][628]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.54:214][675]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.54:455][701]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.56:212][898]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.06.56:469][925]LogBlueprintUserMessages: [skycommander_C_0] mech
+[2019.06.16-10.06.58:238][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.06.58:379][135]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.06.58:386][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.58:423][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.06.58:424][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.06.58:527][136]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.06.16-10.06.59:646][268]LogEditorTransaction: Undo Edit Visible
+[2019.06.16-10.06.59:693][268]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CollisionCylinder) Component already registered.
+[2019.06.16-10.06.59:694][268]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.06.59:696][268]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.06.59:697][268]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.06.59:699][268]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.06.59:700][268]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.00:292][330]LogEditorTransaction: Undo Edit Hidden in Game
+[2019.06.16-10.07.00:301][330]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CollisionCylinder) Component already registered.
+[2019.06.16-10.07.00:301][330]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.00:304][330]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.00:305][330]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.00:306][330]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.00:307][330]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.00:612][361]LogEditorTransaction: Undo Edit Visible
+[2019.06.16-10.07.00:621][361]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.00:624][361]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.00:625][361]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.00:628][361]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.00:837][381]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.01:051][400]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.01:240][418]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.01:452][439]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.01:650][457]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.02:166][513]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.02:358][530]LogEditorTransaction: Undo Detach Component
+[2019.06.16-10.07.02:366][530]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.02:369][530]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.02:370][530]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.02:371][530]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.02:373][530]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.02:374][530]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.08:566][261]Cmd: TRANSACTION UNDO
+[2019.06.16-10.07.08:566][261]LogEditorTransaction: Undo Detach Component
+[2019.06.16-10.07.08:575][261]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.08:578][261]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.08:579][261]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.08:580][261]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.08:581][261]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.08:582][261]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.08:885][288]LogEditorTransaction: Undo Rename Component Variable
+[2019.06.16-10.07.09:094][309]LogEditorTransaction: Undo Attach Component
+[2019.06.16-10.07.09:100][309]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CollisionCylinder) Component already registered.
+[2019.06.16-10.07.09:101][309]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:106][309]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CollisionCylinder) Component already registered.
+[2019.06.16-10.07.09:107][309]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.09:108][309]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.09:108][309]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:288][325]LogEditorTransaction: Undo Attach Component
+[2019.06.16-10.07.09:294][325]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CollisionCylinder) Component already registered.
+[2019.06.16-10.07.09:296][325]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:300][325]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CollisionCylinder) Component already registered.
+[2019.06.16-10.07.09:301][325]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:510][345]LogEditorTransaction: Undo Rename Component Variable
+[2019.06.16-10.07.09:522][345]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.09:523][345]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.09:524][345]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:525][345]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.09:526][345]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.09:527][345]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.09:701][356]LogEditorTransaction: Undo Remove Components
+[2019.06.16-10.07.09:902][372]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.07.10:113][391]LogEditorTransaction: Undo Attach Component
+[2019.06.16-10.07.10:122][391]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.10:126][391]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Arrow) Component already registered.
+[2019.06.16-10.07.10:127][391]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharMoveComp) Component already registered.
+[2019.06.16-10.07.10:128][391]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.CharacterMesh0) Component already registered.
+[2019.06.16-10.07.10:129][391]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.Arrow) Component already registered.
+[2019.06.16-10.07.10:130][391]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_8:PersistentLevel.mech_C_0.CharMoveComp) Component already registered.
+[2019.06.16-10.07.10:784][464]LogEditorTransaction: Undo Add Component
+[2019.06.16-10.07.30:852][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.07.35:810][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.07.43:004][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.07.47:909][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.08.14:334][671]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:335][671]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Capsule' 
+[2019.06.16-10.08.14:335][671]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:345][672]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:357][673]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:368][674]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:380][675]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:392][676]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:403][677]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:413][678]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:424][679]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.14:435][680]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:060][737]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:060][737]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Capsule' 
+[2019.06.16-10.08.15:060][737]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:071][738]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:626][790]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:627][790]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Capsule' 
+[2019.06.16-10.08.15:627][790]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:636][791]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:958][822]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:958][822]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Capsule' 
+[2019.06.16-10.08.15:959][822]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.15:969][823]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Capsule' 
+[2019.06.16-10.08.26:019][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.08.29:415][382]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:416][382]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.attack range' 
+[2019.06.16-10.08.29:417][382]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:429][383]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:440][384]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:452][385]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:464][386]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:476][387]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:488][388]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:499][389]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:511][390]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:521][391]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:534][392]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:544][393]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:556][394]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:566][395]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:578][396]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:590][397]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:601][398]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:611][399]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:622][400]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.29:634][401]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.attack range' 
+[2019.06.16-10.08.36:133][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.08.48:214][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.08.54:333][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.09.01:421][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.09.21:818][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.16-10.09.25:667][582]LogEditorTransaction: Undo Modify Component(s)
+[2019.06.16-10.09.27:623][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.09.33:818][509]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:819][509]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.mech_2.Sphere' 
+[2019.06.16-10.09.33:819][509]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:831][510]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:842][511]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:854][512]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:866][513]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:877][514]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.33:889][515]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Engine/Transient.World_8:PersistentLevel.mech_C_0.Sphere' 
+[2019.06.16-10.09.39:390][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.16-10.09.45:113][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.09.45:220][745]BlueprintLog: New page: Compile mech
+[2019.06.16-10.09.45:400][745]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.SphereComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:attack range
+    Item = StaticMeshComponent /Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.REINST_mech_C_0.TRASH_StaticMeshComponent_363
+[2019.06.16-10.09.45:414][745]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.SphereComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:attack range
+    Item = StaticMeshComponent /Engine/Transient.World_8:PersistentLevel.REINST_mech_C_0.TRASH_StaticMeshComponent_492
+[2019.06.16-10.09.45:421][745]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.SphereComponent. Reference will be nullptred.
+    Property = ObjectProperty /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:attack range
+    Item = StaticMeshComponent /Engine/Transient.World_10:PersistentLevel.REINST_mech_C_0.TRASH_StaticMeshComponent_15
+[2019.06.16-10.09.46:252][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.09.46:346][798]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech956CE7F14CD6A599828175AC6909A53A.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.09.48:243][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.09.48:344][ 27]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.09.48:362][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.09.48:362][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.09.48:363][ 27]PIE: New page: PIE session: stronghold (17 Jun 2019 2:09:48 am)
+[2019.06.16-10.09.48:363][ 27]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.09.48:376][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012679s)
+[2019.06.16-10.09.48:377][ 27]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.09.48:377][ 27]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.06.16-10.09.48:377][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.014140s)
+[2019.06.16-10.09.48:434][ 27]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.09.48:441][ 27]LogInit: FAudioDevice initialized.
+[2019.06.16-10.09.48:450][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.09.48:523][ 27]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.09.48:525][ 27]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.09.48
+[2019.06.16-10.09.48:526][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.48:526][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.48:526][ 27]LogWorld: Bringing up level for play took: 0.002517
+[2019.06.16-10.09.48:544][ 27]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold 0.018
+[2019.06.16-10.09.48:544][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.09.50:097][174]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.09.50:254][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:254][190]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:480][215]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:737][243]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:737][243]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:965][268]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.50:965][268]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.51:431][314]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.09.51:782][352]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.51:866][360]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.51:989][372]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.51:989][372]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.52:102][383]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.09.52:440][419]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.52:535][428]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.52:535][428]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.52:586][433]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.52:586][433]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.09.53:542][529]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.09.53:916][568]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.09.53:917][568]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.09.53:917][568]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.09.53:917][568]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.09.55:026][685]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.00:009][197]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.00:200][217]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.00:470][246]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.01:277][329]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.01:491][350]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.02:429][450]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.03:220][534]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.06:298][872]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.07:068][954]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.07:553][  7]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.08:039][ 56]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.08:217][ 74]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.10:258][291]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.10:474][315]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.12:496][533]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.14:085][693]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.15:846][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.10.15:972][887]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.10.15:979][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.16:017][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.10.16:018][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.16:120][888]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.06.16-10.10.17:441][ 41]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.10.17:455][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.17:455][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.10.17:455][ 41]PIE: New page: PIE session: stronghold (17 Jun 2019 2:10:17 am)
+[2019.06.16-10.10.17:455][ 41]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.10.17:466][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010573s)
+[2019.06.16-10.10.17:467][ 41]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.10.17:467][ 41]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2019.06.16-10.10.17:467][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.011506s)
+[2019.06.16-10.10.17:507][ 41]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.10.17:513][ 41]LogInit: FAudioDevice initialized.
+[2019.06.16-10.10.17:522][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.10.17:593][ 41]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.10.17:595][ 41]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.10.17
+[2019.06.16-10.10.17:596][ 41]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.17:596][ 41]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.17:596][ 41]LogWorld: Bringing up level for play took: 0.002238
+[2019.06.16-10.10.17:614][ 41]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold 1.088
+[2019.06.16-10.10.17:614][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.20:599][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.10.20:715][351]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.10.20:721][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.20:760][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.10.20:760][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.20:865][352]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.06.16-10.10.26:964][ 65]BlueprintLog: New page: Compile mech
+[2019.06.16-10.10.27:612][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/units/mech" FILE="G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset" SILENT=true
+[2019.06.16-10.10.27:697][ 92]LogSavePackage: Moving 'G:/My games/ProtocolApocolypse/Saved/mech0F841A8B42446238F39FF39BE595F374.tmp' to 'G:/My games/ProtocolApocolypse/Content/ThirdPersonBP/Blueprints/units/mech.uasset'
+[2019.06.16-10.10.28:126][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.10.28:226][151]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.10.28:244][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.28:244][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.10.28:244][151]PIE: New page: PIE session: stronghold (17 Jun 2019 2:10:28 am)
+[2019.06.16-10.10.28:244][151]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.10.28:254][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009764s)
+[2019.06.16-10.10.28:255][151]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.10.28:255][151]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2019.06.16-10.10.28:255][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.010894s)
+[2019.06.16-10.10.28:325][151]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.10.28:331][151]LogInit: FAudioDevice initialized.
+[2019.06.16-10.10.28:339][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.10.28:407][151]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.10.28:410][151]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.10.28
+[2019.06.16-10.10.28:410][151]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.28:410][151]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.28:411][151]LogWorld: Bringing up level for play took: 0.002478
+[2019.06.16-10.10.28:428][151]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold -0.098
+[2019.06.16-10.10.28:428][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.29:867][289]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.30:358][340]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.30:510][356]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.30:510][356]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.30:550][360]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.10.30:615][366]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.31:015][407]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.32:498][565]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.33:095][627]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.34:681][801]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.35:378][876]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.36:494][994]LogBlueprintUserMessages: [skycommander_C_0] fight
+[2019.06.16-10.10.36:886][ 35]LogBlueprintUserMessages: [skycommander_C_0] Floor
+[2019.06.16-10.10.37:254][ 74]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.38:503][205]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.38:552][210]LogBlueprintUserMessages: [mech_2] new one
+[2019.06.16-10.10.38:997][257]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.41:994][583]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.42:614][648]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.45:605][982]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.46:057][ 31]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.49:058][369]LogBlueprintUserMessages: [mech_2] hit
+[2019.06.16-10.10.50:556][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.16-10.10.50:654][539]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.10.50:662][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.50:696][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.10.50:697][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.10.50:801][540]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.06.16-10.11.15:187][899]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.06.16-10.11.15:200][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.11.15:200][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.16-10.11.15:200][899]PIE: New page: PIE session: stronghold (17 Jun 2019 2:11:15 am)
+[2019.06.16-10.11.15:201][899]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold
+[2019.06.16-10.11.15:212][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011107s)
+[2019.06.16-10.11.15:212][899]LogAIModule: Creating AISystem for world stronghold
+[2019.06.16-10.11.15:213][899]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2019.06.16-10.11.15:213][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/stronghold.stronghold to /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold (0.011902s)
+[2019.06.16-10.11.15:251][899]LogInit: XAudio2 using 'VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.16-10.11.15:257][899]LogInit: FAudioDevice initialized.
+[2019.06.16-10.11.15:266][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.11.15:341][899]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.06.16-10.11.15:343][899]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold.stronghold up for play (max tick rate 0) at 2019.06.16-18.11.15
+[2019.06.16-10.11.15:344][899]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3208
+[2019.06.16-10.11.15:344][899]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:BndEvt__vision_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/ThirdPersonBP/Blueprints/units/mech.mech_C:ExecuteUbergraph_mech
+
+[2019.06.16-10.11.31:758][899]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.11.31:758][899]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'enemies' of length 0 in '/Game/ThirdPersonBP/Blueprints/units/mech.mech_C'!
+[2019.06.16-10.11.31:759][899]LogWorld: Bringing up level for play took: 16.416937
+[2019.06.16-10.11.31:776][899]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_stronghold 17.25
+[2019.06.16-10.11.31:777][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.11.31:810][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.11.31:826][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.16-10.11.31:841][899]LogSlate: Window 'ProtocolApocolypse Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.06.16-10.11.31:886][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.16-10.11.31:887][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold' with GeneratedClass '/Game/ThirdPersonBP/Maps/stronghold.stronghold_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/stronghold.stronghold:PersistentLevel.stronghold'
+[2019.06.16-10.11.33:640][899]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.723 s
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: === Handled ensure: ===
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: 
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: SObjectWidget for 'skycommand_hud_C /Engine/Transient.UnrealEdEngine_0:game_data_C_7.skycommand_hud_C_0' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: Stack: 
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9439871f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9436c0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9436db356 UE4Editor-Core.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff93e4a9a63 UE4Editor-UMG.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff96aecd246 UE4Editor-SlateCore.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9409f8959 UE4Editor-Engine.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff940a0297f UE4Editor-Engine.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff96a1c1be7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff96a183f89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff96a1834ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff93f5f72b1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff93f0482b2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff93f93f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff695395cbd UE4Editor.exe!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff6953a5b3c UE4Editor.exe!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff6953a5bba UE4Editor.exe!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff6953b3dac UE4Editor.exe!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff6953b5aaa UE4Editor.exe!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9b8ca4034 KERNEL32.DLL!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: [Callstack] 0x00007ff9bb643691 ntdll.dll!UnknownFunction []
+[2019.06.16-10.11.33:640][899]LogOutputDevice: Error: 
+[2019.06.16-10.11.33:659][899]LogStats:                SubmitErrorReport -  0.013 s
